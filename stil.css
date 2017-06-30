@@ -1,0 +1,203 @@
+/* karusel1 */
+.carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#karusel1 {
+	border-bottom: 5px solid red;
+}
+
+#karusel1 .carousel-indicators {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+   .carousel-caption {
+      display: none; 
+   }
+}
+
+@media (min-width: 1000px) {
+ 	nav .container{
+        max-width: 950px;
+    }
+}
+
+.btn {
+	margin-bottom: 30px;
+}
+
+/* navigacija */
+.nav ul{
+	padding: 20px;
+	display: table;
+}
+
+.nav li {	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-nav li:hover {
+	border-top: 3px solid red;
+	overflow: hidden;
+}
+
+@media (min-width: 1000px) {
+    .nav ul{
+        display: table;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav li{
+        display: table-cell;
+    }
+}
+
+a.btn {
+  	margin-top: 20px;
+}
+
+.navbar-header a {
+	display: table;	
+}
+
+.navbar-brand span{
+	display: table-cell;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+/* div procitaj */
+#procitaj {
+	background-color: white;
+	position: relative;
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	margin-top: -65px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px lightgrey;
+	z-index: 1;
+}
+
+#procitaj .pull-left {
+	padding-left: 25px;
+}
+
+#procitaj .pull-right {
+	padding: 15px 25px;
+}
+
+@media (max-width: 600px) {
+   #procitaj {
+      display: none; 
+   }
+}
+
+/* div projekti */
+#projekti {
+	background-color: #f2f2f2;
+	padding: 50px;
+	margin-top: -60px;
+}
+
+#projekti img.veca {
+	width: 200px;
+	height: 150px;
+	margin: auto;
+}
+
+#projekti p {
+	width: 50%;
+	margin: auto;
+}
+
+@media (max-width: 600px) {
+	#projekti .row .col-sm-4 {
+		margin-top: 30px;
+	}
+}
+
+.spa {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: -100px;
+}
+
+/* karusel 2 */
+#karusel2 {
+	width: 100%;	
+	padding: 50px;
+}
+
+#karusel2 .carousel-content {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+#karusel2 .carousel-indicators li{
+	background-color: lightgrey;
+}
+
+#karusel2 .carousel-indicators .active {
+    background-color: grey;
+}
+
+/* futer */
+footer {
+  background-color: #efefef;
+  padding: 35px;
+}
+
+footer .row {
+	width: 70%;
+	margin: auto;
+}
+
+footer .col-xs-3 {
+	text-align: left;
+}
+
+@media (max-width: 600px) {
+	.futerOstatak {
+		padding-top: 30px;
+	}
+}
+
+.futerLogo {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.vesti hr{
+	margin: 10px;
+	border-color: lightgrey;
+}
+
+footer ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.mapa a {
+	color: grey;
+}
+
+.mapa a:hover {
+	color: red;
+	text-decoration: none;
+}
